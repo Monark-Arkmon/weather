@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ☁️ Overview
+The **Weather Application** is a responsive web application that provides real-time weather updates and forecasts for cities worldwide. The project is designed to offer a user-friendly interface and a visually appealing experience.
 
-## Available Scripts
+### 🌐 Deployed Version
+The application is live and accessible at:
+[https://monark-arkmon.github.io/weather/](https://monark-arkmon.github.io/weather/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
+- Real-time weather data for cities worldwide.
+- Displays essential weather parameters, such as:
+  - Temperature
+  - Weather condition
+  - Wind speed
+  - Humidity
+- Animated UI with a visually appealing background.
+- Daily forecast for the upcoming days.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖌️ User Interface
+The interface is styled with modern CSS techniques:
+- Gradient backgrounds for a dynamic feel.
+- Smooth animations for headers.
+- Custom styling for weather cards, forecasts, and icons.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Requirements
+The project is built using web technologies:
+- **HTML** for structure.
+- **CSS** for styling (refer to `App.css` for details).
+- **JavaScript** for fetching and displaying weather data.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ How to Use Locally
+### 1. Clone the Repository
+Download or clone the project folder to your local machine:
+```bash
+git clone git@github.com:Monark-Arkmon/weather.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Open the Application
+Navigate to the project directory and open `index.html` in a web browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 File Structure
+```
+weather_app/
+├── index.html       # Main entry point of the application
+├── App.css          # Styling for the application
+├── script.js        # Main JavaScript file
+├── assets/          # Contains icons and other media assets
+└── README.md        # Documentation for the application
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📌 Additional Notes
+- Ensure you have a stable internet connection to fetch live weather data.
+- For any issues or feature requests, feel free to open an issue in the repository.
