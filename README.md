@@ -37,28 +37,21 @@ The project is built using web technologies:
 
 ---
 
-## 🛠️ How to Use Locally
-### 1. Clone the Repository
-Download or clone the project folder to your local machine:
+1. Clone the repository:
 ```bash
-git clone git@github.com:Monark-Arkmon/weather.git
+git clone git clone git@github.com:Monark-Arkmon/weather.git
 ```
 
-### 2. Open the Application
-Navigate to the project directory and open `index.html` in a web browser.
-
----
-
-## 📂 File Structure
-```
-weather_app/
-├── index.html       # Main entry point of the application
-├── App.css          # Styling for the application
-├── script.js        # Main JavaScript file
-├── assets/          # Contains icons and other media assets
-└── README.md        # Documentation for the application
+2. Install dependencies:
+```bash
+cd weather
+npm install
 ```
 
+3. Start development server:
+```bash
+npm start
+```
 ---
 
 ## 📌 Additional Notes
